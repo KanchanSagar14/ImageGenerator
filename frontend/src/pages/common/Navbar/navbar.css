@@ -1,0 +1,36 @@
+.header-parent-container {
+  display: flex;
+  background-color: rgb(180, 180, 248);
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 16px;
+  height: 64px;
+  color: white;
+  box-shadow: rgba(218, 216, 210, 0.1) 0px 10px 10px -10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.left {
+  display: flex;
+  gap: 24px;
+  color: black;
+}
+.right {
+  height: 24px;
+  width: 24px;
+  border-radius: 20%;
+  background-color: yellow;
+}
+.logout{
+  background-color: black;
+  color: white;
+  border-radius: 20%;
+  padding: 4px;
+}
+.logout:hover{
+  background-color: yellow;
+  color: black;
+}
